@@ -59,6 +59,7 @@ html {
 	.footertext {
 		font-size: 10px;
 		text-align: center;
+		padding: 10px;
 	}
 	#top {
 		background-color: red;
