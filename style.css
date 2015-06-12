@@ -57,13 +57,36 @@ html {
 	min-height: 500px;
 }
 	#top {
-		background-color: red;
+		background-color: #eaeaea;
 		height: 230px;
 	}
 		.topnav {
 			background-color: black;
-			height: 30px; 
+			height: 30px;
+			border-radius: 5px; 
 		}
+			.topnav img {
+				margin-left: 20px;
+			}
+			.topnav h1 {
+				margin-top: 7px;
+				font-size: 15px;
+				color:white;
+				font-weight: bold;
+				display: inline-block;
+				vertical-align: top;
+			}
+			.topnav ul {
+				margin-top: 7px;
+				margin-left: 165px;
+				display: inline-block;
+				vertical-align: top;
+			}
+			.topnav ul li {
+				color:white;
+				display: inline-block;
+				vertical-align: top;
+			}
 		.topcontent {
 			/*background-color: orange;*/
 			height: 200px;
