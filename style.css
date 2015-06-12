@@ -87,6 +87,11 @@ html {
 				display: inline-block;
 				vertical-align: top;
 			}
+			.topnav a {
+				font-size: 11px;
+				text-decoration: none;
+				color:white;
+			}
 		.topcontent {
 			/*background-color: orange;*/
 			height: 200px;
