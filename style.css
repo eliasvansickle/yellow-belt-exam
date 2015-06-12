@@ -300,21 +300,21 @@ html {
 		 	.inputtop {
 		 		width: 70px;
 		 		margin-top: 15px;
-		 		color:white;
+		 		color:rgb(100,100,100);
 		 		background-color: rgb(30,30,30);
 		 		border:none;
 		 		padding: 3px;
 		 	}
 		 	.inputphone {
 		 		margin-top: 15px;
-		 		color:white;
+		 		color:rgb(100,100,100);
 		 		border:none;
 		 		background-color: rgb(30,30,30);
 		 		padding: 3px;
 
 		 	}
 		 	.inputsubmit {
-		 		color:white;
+		 		color: rgb(180,180,180);
 		 		border:none;
 		 		background-color: black;
 		 	}
