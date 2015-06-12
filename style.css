@@ -53,7 +53,7 @@ html {
 #wrapper {
 	background-color: lightblue;
 	margin: 0 auto;
-	max-width: 950px;
+	max-width: 700px;
 	min-height: 500px;
 }
 	#top {
@@ -61,10 +61,33 @@ html {
 		height: 230px;
 	}
 	#mid {
-		background-color: blue;
+		background-color: #eaeaea;
 		height: 280px;
-
 	}
+		#mid h2 {
+
+		}
+		#mid p {
+
+		}
+		.mleft {
+			background-color: green;
+			width:470px;
+			height: 279px;
+		}
+			.mtopleft {
+				background-color: blue;
+				width:450px;
+				height: 110px;
+			}
+			.mbottomleft {
+				background-color: yellow;
+				width:430px;
+				height: 95px;
+			}
+		.mright {
+
+		}
 	#low {
 		background-color: purple;
 		height: 186px;
