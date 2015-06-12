@@ -56,6 +56,10 @@ html {
 	max-width: 700px;
 	min-height: 500px;
 }
+	.footertext {
+		font-size: 10px;
+		text-align: center;
+	}
 	#top {
 		background-color: red;
 		height: 230px;
@@ -85,7 +89,7 @@ html {
 		.lowleft {
 			/*background-color: red;*/
 			width:130px;
-			height: 115px;
+			min-height: 115px;
 			display: inline-block;
 			vertical-align: top;
 		}
@@ -95,9 +99,10 @@ html {
 		.lowmid {
 			/*background-color: blue;*/
 			width:210px;
-			height: 127px;
+			min-height: 127px;
 			display: inline-block;
 			vertical-align: top;
+			margin-left: 103px;
 		}
 			.lowmid a {
 				color:white;
@@ -109,12 +114,30 @@ html {
 
 			}
 		.lowright {
-			background-color: yellow;
+			/*background-color: yellow;*/
 			width:208px;
-			height: 115px;
+			min-height: 115px;
 			display: inline-block;
 			vertical-align: top;
+			margin-left: 20px;
 		}
+		 	.inputtop {
+		 		width: 70px;
+		 		margin-top: 15px;
+		 		color:white;
+		 		background-color: black;
+		 	}
+		 	.inputphone {
+		 		margin-top: 15px;
+		 		color:white;
+		 		background-color: black;
+		 	}
+		 	.inputsubmit {
+		 		color:white;
+		 		background-color: black;
+		 	}
+
+
 
 
 
