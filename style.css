@@ -41,6 +41,74 @@ blockquote, q {
 	quotes: "" "";
 	}
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /*====================MY CODE BELOW======================================*/
+
+#wrapper {
+	background-color: lightblue;
+	margin: 0 auto;
+	max-width: 950px;
+	min-height: 500px;
+}
+	#top {
+		background-color: red;
+		height: 230px;
+	}
+	#mid {
+		background-color: blue;
+		height: 280px;
+
+	}
+	#low {
+		background-color: purple;
+		height: 186px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
