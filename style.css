@@ -74,6 +74,8 @@ html {
 			background-color: green;
 			width:470px;
 			height: 279px;
+			display: inline-block;
+			vertical-align: top;
 		}
 			.mtopleft {
 				background-color: blue;
@@ -86,8 +88,19 @@ html {
 				height: 95px;
 			}
 		.mright {
-
+			background-color: blue;
+			width: 223px;
+			height: 279px;
+			display: inline-block;
+			vertical-align: top;
 		}
+			.waste {
+				background-color: yellow;
+				width:120px;
+				height: 250px;
+				display: inline-block;
+				vertical-align: top
+			}
 	#low {
 		background-color: purple;
 		height: 186px;
