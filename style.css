@@ -51,11 +51,16 @@ html {
 /*====================MY CODE BELOW======================================*/
 
 #wrapper {
-	/*background-color: lightblue;*/
+	background-color: #eaeaea;
 	margin: 0 auto;
 	max-width: 700px;
 	min-height: 500px;
 }
+	.footertext {
+		font-size: 10px;
+		text-align: center;
+		padding: 10px;
+	}
 	#top {
 		background-color: #eaeaea;
 		height: 230px;
@@ -241,21 +246,78 @@ html {
 				height: 170px;
 			}
 	#low {
-		background-color: purple;
+		background-color: black;
 		height: 186px;
-
+		padding: 10px;
 	}
+		#low h3 {
+			color:white;
+			font-size: 15px;
+			margin-bottom: 15px;
+			font-weight: bold;
+		}
+		#low p {
+			color: white;
+			font-size: 10px;
+			margin-top: 5px;
+			line-height: 150%;
+		}
+		.lowleft {
+			/*background-color: red;*/
+			width:130px;
+			min-height: 115px;
+			display: inline-block;
+			vertical-align: top;
+		}
+			.email {
+				padding-top: 20px;
+			}
+		.lowmid {
+			/*background-color: blue;*/
+			width:210px;
+			min-height: 127px;
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 103px;
+		}
+			.lowmid a {
+				color:white;
+				text-decoration: none;
+				display: block;
+				padding: 5px;
+				font-size: 10px;
+				border-bottom: 1px solid gray;
 
+			}
+		.lowright {
+			/*background-color: yellow;*/
+			width:208px;
+			min-height: 115px;
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 20px;
+		}
+		 	.inputtop {
+		 		width: 70px;
+		 		margin-top: 15px;
+		 		color:white;
+		 		background-color: rgb(30,30,30);
+		 		border:none;
+		 		padding: 3px;
+		 	}
+		 	.inputphone {
+		 		margin-top: 15px;
+		 		color:white;
+		 		border:none;
+		 		background-color: rgb(30,30,30);
+		 		padding: 3px;
 
-
-
-
-
-
-
-
-
-
+		 	}
+		 	.inputsubmit {
+		 		color:white;
+		 		border:none;
+		 		background-color: black;
+		 	}
 
 
 
