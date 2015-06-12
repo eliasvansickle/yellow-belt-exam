@@ -53,7 +53,7 @@ html {
 #wrapper {
 	background-color: lightblue;
 	margin: 0 auto;
-	max-width: 950px;
+	max-width: 700px;
 	min-height: 500px;
 }
 	#top {
@@ -66,10 +66,33 @@ html {
 
 	}
 	#low {
-		background-color: purple;
+		background-color: black;
 		height: 186px;
-
 	}
+		#low h2 {
+			
+		}
+		.lowleft {
+			background-color: red;
+			width:115px;
+			height: 115px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.lowmid {
+			background-color: blue;
+			width:210px;
+			height: 127px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.lowright {
+			background-color: yellow;
+			width:208px;
+			height: 115px;
+			display: inline-block;
+			vertical-align: top;
+		}
 
 
 
