@@ -78,7 +78,7 @@ html {
 			}
 			.topnav ul {
 				margin-top: 7px;
-				margin-left: 165px;
+				margin-left: 105px;
 				display: inline-block;
 				vertical-align: top;
 			}
@@ -86,6 +86,7 @@ html {
 				color:white;
 				display: inline-block;
 				vertical-align: top;
+				margin-left: 15px;
 			}
 			.topnav a {
 				font-size: 11px;
