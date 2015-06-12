@@ -51,7 +51,7 @@ html {
 /*====================MY CODE BELOW======================================*/
 
 #wrapper {
-	background-color: lightblue;
+	/*background-color: lightblue;*/
 	margin: 0 auto;
 	max-width: 950px;
 	min-height: 500px;
@@ -60,6 +60,14 @@ html {
 		background-color: red;
 		height: 230px;
 	}
+		.topnav {
+			background-color: black;
+			height: 30px; 
+		}
+		.topcontent {
+			background-color: orange;
+			height: 200px;
+		}	
 	#mid {
 		background-color: blue;
 		height: 280px;
