@@ -65,20 +65,34 @@ html {
 			height: 30px; 
 		}
 		.topcontent {
-			background-color: orange;
+			/*background-color: orange;*/
 			height: 200px;
 			padding: 15px 15px 5px 15px;
 		}
 			.tleftcontent {
-				background-color: green;
+				/*background-color: green;*/
 				width: 255px;
-				height: 140px;
+				min-height: 140px;
 				display: inline-block;
 				vertical-align: top;
 				margin-right: 80px;
 			}
 				.tleftcontent h1 {
 					font-size: 25px;
+				}
+				.tleftcontent p {
+					font-size: 10px;
+					margin-top: 20px; 
+				}
+				.tleftcontent button {
+					font-size: 9px;
+					color: white;
+					background-color: black;
+					border-radius: 3px;
+					padding:5px 5px;
+					margin-left: 175px;
+					margin-top: 20px;
+	
 				}
 			.topcontent img {
 				width: 330px;
