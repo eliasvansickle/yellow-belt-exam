@@ -79,8 +79,8 @@ html {
 			padding-top: 15px;
 		}
 			.mtopleft {
-				background-color: blue;
-				width:460px;
+				/*background-color: blue;*/
+				min-width:460px;
 				height: 110px;
 			}
 				.mtopleft img {
@@ -98,28 +98,33 @@ html {
 				}
 				.mtopleft p {
 					font-size: 10px;
-					margin-top: 7px;
+					margin-top: 15px;
 				}
 				.safe {
-					background-color: green;
-					width:150px;
+					/*background-color: green;*/
+					width:137px;
 					height: 95px;
 					display: inline-block;
 					vertical-align: top;
+					border-right: 1px solid gray;
 				}
 				.eco {
-					background-color: yellow;
-					width:150px;
+					/*background-color: yellow;*/
+					width:137px;
 					height: 95px;
 					display: inline-block;
 					vertical-align: top;
+					border-right: 1px solid gray;
+					margin-left: 2px;
 				}
 				.help {
-					background-color: orange;
-					width:150px;
+					/*background-color: orange;*/
+					width:137px;
 					height: 95px;
 					display: inline-block;
 					vertical-align: top;
+					border-right: 1px solid gray;
+					margin-left: 2px;
 				}
 			.mbottomleft {
 				background-color: yellow;
