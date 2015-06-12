@@ -67,14 +67,19 @@ html {
 		.topcontent {
 			background-color: orange;
 			height: 200px;
+			padding: 15px 15px 5px 15px;
 		}
 			.tleftcontent {
 				background-color: green;
-				width: 350px;
-				height: 200px;
+				width: 255px;
+				height: 140px;
 				display: inline-block;
 				vertical-align: top;
+				margin-right: 80px;
 			}
+				.tleftcontent h1 {
+					font-size: 25px;
+				}
 			.topcontent img {
 				width: 330px;
 				height: 180px;
