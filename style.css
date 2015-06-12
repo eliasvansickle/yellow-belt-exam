@@ -93,12 +93,21 @@ html {
 				padding-top: 20px;
 			}
 		.lowmid {
-			background-color: blue;
+			/*background-color: blue;*/
 			width:210px;
 			height: 127px;
 			display: inline-block;
 			vertical-align: top;
 		}
+			.lowmid a {
+				color:white;
+				text-decoration: none;
+				display: block;
+				padding: 5px;
+				font-size: 10px;
+				border-bottom: 1px solid gray;
+
+			}
 		.lowright {
 			background-color: yellow;
 			width:208px;
