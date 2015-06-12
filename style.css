@@ -68,17 +68,30 @@ html {
 	#low {
 		background-color: black;
 		height: 186px;
+		padding: 10px;
 	}
-		#low h2 {
-			
+		#low h3 {
+			color:white;
+			font-size: 15px;
+			margin-bottom: 15px;
+			font-weight: bold;
+		}
+		#low p {
+			color: white;
+			font-size: 10px;
+			margin-top: 5px;
+			line-height: 150%;
 		}
 		.lowleft {
-			background-color: red;
-			width:115px;
+			/*background-color: red;*/
+			width:130px;
 			height: 115px;
 			display: inline-block;
 			vertical-align: top;
 		}
+			.email {
+				padding-top: 20px;
+			}
 		.lowmid {
 			background-color: blue;
 			width:210px;
@@ -93,19 +106,6 @@ html {
 			display: inline-block;
 			vertical-align: top;
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
